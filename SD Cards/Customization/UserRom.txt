@@ -1,0 +1,111 @@
+# +--------------+
+# | BITMAP FONTS |
+# +--------------+
+/Fonts/Arial_14.ezf
+/Fonts/Arial_14_B.ezf
+/Fonts/Times New Roman_34_B.ezf
+/Fonts/Forte_26.ezf
+/Fonts/Script MT Bold_29_B.ezf
+/Fonts/ISO_6x10.ezf
+/Fonts/ISO_8x13.ezf
+
+# +-----------------+
+# | TRUE TYPE FONTS |
+# +-----------------+
+/Fonts/DejaVuSans.ttf
+/Fonts/DejaVuSans-Bold.ttf
+/Fonts/DejaVuSans-BoldOblique.ttf
+/Fonts/DejaVuSerif.ttf
+/Fonts/DejaVuSerif-Bold.ttf
+/Fonts/DejaVuSerif-Italic.ttf
+/Fonts/Quig.ttf
+/Fonts/waltograph.ttf
+
+# +---------+
+# | BITMAPS |
+# +---------+
+
+/Bitmaps/spash_screen.jpg
+/Bitmaps/background_1.jpg
+
+#BUTTONS (Note that button index is a continuation of bitmap index)
+
+/Bitmaps/Buttons/0.jpg
+/Bitmaps/Buttons/0_down.jpg
+/Bitmaps/Buttons/0_dis.jpg
+
+/Bitmaps/Buttons/1.jpg
+/Bitmaps/Buttons/1_down.jpg
+/Bitmaps/Buttons/1_dis.jpg
+
+/Bitmaps/Buttons/2.jpg
+/Bitmaps/Buttons/2_down.jpg
+/Bitmaps/Buttons/2_dis.jpg
+
+/Bitmaps/Buttons/3.jpg
+/Bitmaps/Buttons/3_down.jpg
+/Bitmaps/Buttons/3_dis.jpg
+
+/Bitmaps/Buttons/4.jpg
+/Bitmaps/Buttons/4_down.jpg
+/Bitmaps/Buttons/4_dis.jpg
+
+/Bitmaps/Buttons/5.jpg
+/Bitmaps/Buttons/5_down.jpg
+/Bitmaps/Buttons/5_dis.jpg
+
+/Bitmaps/Buttons/6.jpg
+/Bitmaps/Buttons/6_down.jpg
+/Bitmaps/Buttons/6_dis.jpg
+
+/Bitmaps/Buttons/7.jpg
+/Bitmaps/Buttons/7_down.jpg
+/Bitmaps/Buttons/7_dis.jpg
+
+/Bitmaps/Buttons/8.jpg
+/Bitmaps/Buttons/8_down.jpg
+/Bitmaps/Buttons/8_dis.jpg
+
+/Bitmaps/Buttons/9.jpg
+/Bitmaps/Buttons/9_down.jpg
+/Bitmaps/Buttons/9_dis.jpg
+
+/Bitmaps/Buttons/star.jpg
+/Bitmaps/Buttons/star_down.jpg
+/Bitmaps/Buttons/star_dis.jpg
+
+/Bitmaps/Buttons/pound.jpg
+/Bitmaps/Buttons/pound_down.jpg
+/Bitmaps/Buttons/pound_dis.jpg
+
+/Bitmaps/Buttons/start.jpg
+/Bitmaps/Buttons/start_down.jpg
+/Bitmaps/Buttons/start_dis.jpg
+
+/Bitmaps/Buttons/stop.jpg
+/Bitmaps/Buttons/stop_down.jpg
+/Bitmaps/Buttons/stop_dis.jpg
+
+/Bitmaps/Buttons/back.jpg
+/Bitmaps/Buttons/back_down.jpg
+/Bitmaps/Buttons/back_dis.jpg
+
+/Bitmaps/Buttons/next.jpg
+/Bitmaps/Buttons/next_down.jpg
+/Bitmaps/Buttons/next_dis.jpg
+
+/Bitmaps/Buttons/continue.jpg
+/Bitmaps/Buttons/continue_down.jpg
+/Bitmaps/Buttons/continue_dis.jpg
+
+/Bitmaps/Buttons/calibrate.jpg
+/Bitmaps/Buttons/calibrate_down.jpg
+/Bitmaps/Buttons/calibrate_dis.jpg
+
+/Bitmaps/Buttons/settings.jpg
+/Bitmaps/Buttons/settings_down.jpg
+/Bitmaps/Buttons/settings_dis.jpg
+
+# +--------------+
+# | LUA PROGRAMS |
+# +--------------+

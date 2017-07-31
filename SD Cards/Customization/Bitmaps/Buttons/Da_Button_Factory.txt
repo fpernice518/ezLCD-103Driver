@@ -1,0 +1,31 @@
+Blue Buttons
+------------
+UP
+http://dabuttonfactory.com/#t=Continue&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=0728b8&ebgc=011f3b&be=on&w=100&h=50
+
+DOWN
+http://dabuttonfactory.com/#t=%23&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=9fb2fc&ebgc=0088ff&be=on&w=50&h=35
+
+
+Green Buttons
+-------------
+UP
+http://dabuttonfactory.com/#t=Start&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=09a803&ebgc=012b0c&be=on&w=100&h=50
+
+DOWN
+http://dabuttonfactory.com/#t=Start&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=0fdb04&ebgc=00de38&be=on&w=100&h=50
+
+
+
+Red Buttons
+-----------
+UP
+http://dabuttonfactory.com/#t=Stop&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=e00000&ebgc=6e0404&be=on&w=100&h=50
+
+DOWN
+http://dabuttonfactory.com/#t=Stop&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=e00000&ebgc=ff0000&be=on&w=100&h=50
+
+
+DISABLED(ALL)
+-------------
+http://dabuttonfactory.com/#t=%23&f=Calibri-Bold&ts=24&tc=ffffff&tshs=1&tshc=222222&it=jpeg&c=0&bgt=gradient&bgc=bdbdbd&ebgc=757575&be=on&w=50&h=35

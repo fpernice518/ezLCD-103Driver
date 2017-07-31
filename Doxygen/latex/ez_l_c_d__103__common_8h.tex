@@ -1,0 +1,62 @@
+\hypertarget{ez_l_c_d__103__common_8h}{\section{ez\-L\-C\-D\-\_\-103\-\_\-common.\-h File Reference}
+\label{ez_l_c_d__103__common_8h}\index{ez\-L\-C\-D\-\_\-103\-\_\-common.\-h@{ez\-L\-C\-D\-\_\-103\-\_\-common.\-h}}
+}
+
+
+Common header file needed by all child headers in this library. \par
+  
+
+
+{\ttfamily \#include \char`\"{}ez\-L\-C\-D\-\_\-103\-\_\-user\-\_\-config.\-h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_ga7160333b021def2426e7a37374e0237e}{E\-Z\-L\-C\-D\-\_\-\-W\-I\-D\-T\-H}~320
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_ga80fd71095e0770e3946dd9a8bc997342}{E\-Z\-L\-C\-D\-\_\-\-H\-E\-I\-G\-H\-T}~240
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_ga62e58ee0221736142ba2ff8cacafdb9f}{S\-E\-T\-B\-I\-T}(port, bit)~((port) $|$= (1 $<$$<$ (bit)))
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_ga8826ffc761710e6313c4c3e3188bfc13}{C\-L\-E\-A\-R\-B\-I\-T}(port, bit)~((port) \&= $\sim$(1 $<$$<$ (bit)))
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I}()
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_ga44c44ce98f7be19a71fd5a2512f7defe}{E\-Z\-L\-C\-D\-\_\-\-S\-L\-A\-V\-E\-\_\-\-S\-E\-L\-E\-C\-T}()~\hyperlink{group__ez_l_c_d__103__common_ga8826ffc761710e6313c4c3e3188bfc13}{C\-L\-E\-A\-R\-B\-I\-T}(\hyperlink{group__ez_l_c_d__103__user__config_ga4be156c889cb0fd12e44107a54d212ec}{E\-Z\-L\-C\-D\-\_\-\-S\-P\-I\-\_\-\-P\-O\-R\-T}, \hyperlink{group__ez_l_c_d__103__user__config_gaa5185668bf24c5de3067f78960330117}{E\-Z\-L\-C\-D\-\_\-\-S\-S\-\_\-\-B\-A\-R\-\_\-\-P\-I\-N});
+\item 
+\#define \hyperlink{group__ez_l_c_d__103__common_gad6fbc948d09f441af9a8b3d5df4b0629}{E\-Z\-L\-C\-D\-\_\-\-S\-L\-A\-V\-E\-\_\-\-D\-E\-S\-E\-L\-E\-C\-T}()~\hyperlink{group__ez_l_c_d__103__common_ga62e58ee0221736142ba2ff8cacafdb9f}{S\-E\-T\-B\-I\-T}(\hyperlink{group__ez_l_c_d__103__user__config_ga4be156c889cb0fd12e44107a54d212ec}{E\-Z\-L\-C\-D\-\_\-\-S\-P\-I\-\_\-\-P\-O\-R\-T}, \hyperlink{group__ez_l_c_d__103__user__config_gaa5185668bf24c5de3067f78960330117}{E\-Z\-L\-C\-D\-\_\-\-S\-S\-\_\-\-B\-A\-R\-\_\-\-P\-I\-N});
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef unsigned char \hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t}
+\item 
+typedef signed char \hyperlink{group__ez_l_c_d__103__common_gaef44329758059c91c76d334e8fc09700}{int8\-\_\-t}
+\item 
+typedef unsigned int \hyperlink{group__ez_l_c_d__103__common_ga1f1825b69244eb3ad2c7165ddc99c956}{uint16\-\_\-t}
+\item 
+typedef signed int \hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t}
+\item 
+typedef unsigned long \hyperlink{group__ez_l_c_d__103__common_ga06896e8c53f721507066c079052171f8}{uint32\-\_\-t}
+\item 
+typedef unsigned long \hyperlink{group__ez_l_c_d__103__common_gad362a62f5bae89670bdcd2f18a0a73a8}{int32\-\_\-t}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} \hyperlink{group__ez_l_c_d__103__common_gabf72834f3918765827f84c430583e28f}{ez\-L\-C\-D\-\_\-transfer\-\_\-data} (\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} data)
+\item 
+\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} \hyperlink{group__ez_l_c_d__103__common_gab6fef76faa5c06a57e2f289a1114972e}{ez\-L\-C\-D\-\_\-transfer\-\_\-data\-\_\-long} (\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} data, \hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} end\-\_\-transfer)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Common header file needed by all child headers in this library. \par
+ \par
+ \begin{DoxyAuthor}{Author}
+Frank Pernice \par
+ 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+November 2013 \par
+ 
+\end{DoxyDate}

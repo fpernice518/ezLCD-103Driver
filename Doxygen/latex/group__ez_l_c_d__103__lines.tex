@@ -1,0 +1,91 @@
+\hypertarget{group__ez_l_c_d__103__lines}{\section{Lines}
+\label{group__ez_l_c_d__103__lines}\index{Lines@{Lines}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__ez_l_c_d__103__lines_ga35a1badf801e1e575e85f37b9aab365f}{ez\-L\-C\-D\-\_\-draw\-\_\-line} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} x, \hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} y)
+\item 
+void \hyperlink{group__ez_l_c_d__103__lines_ga6d20c01026cf57b48587645181d4acd6}{ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} x)
+\item 
+void \hyperlink{group__ez_l_c_d__103__lines_gaf9a751e9cf10f52c13e428b8f5f30761}{ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} y)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This header file contains function prototypes for drawing lines on the ez\-L\-C\-D+103. It includes a generic line-\/drawing function prototype which works for lines of all slopes as well as fast line-\/drawing function prototypes for horizontal and vertical lines. \par
+\par
+ {\bfseries N\-O\-T\-E\-:} it is O\-K for the user to draw a line off the screen (either in the positive or negative direction with endpoints in the set of \mbox{[}-\/32768,32767\mbox{]}). This may be useful to some users as the manufacturer touts this as a feature of the display; hence none of these functions perform bounds checking in order to maintain this feature. 
+
+\subsection{Function Documentation}
+\hypertarget{group__ez_l_c_d__103__lines_ga6d20c01026cf57b48587645181d4acd6}{\index{Lines@{Lines}!ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line}}
+\index{ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line}!Lines@{Lines}}
+\subsubsection[{ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-draw\-\_\-h\-\_\-line (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{x}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__lines_ga6d20c01026cf57b48587645181d4acd6}
+This function is used to draw horizontal lines only to the screen. If the user needs to draw a horizontal line, this function is preferred to conserve system resources. The function draws a line between the {\bfseries  current position. } and the provided X coordinate. The {\bfseries current position} is then updated to the provided X coordinate.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape x} = X coordinate of the line's endpoint; in the set of \mbox{[}-\/32768,32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has appropriately set the {\bfseries current position} using the \hyperlink{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}{ez\-L\-C\-D\-\_\-set\-\_\-xy()} function or another function which alters the {\bfseries current position}.
+\item The user has set a desired pen size with ez\-L\-C\-D\-\_\-set\-\_\-pen\-\_\-size() or is willing to use the most recently set pen size.
+\item The user has chosen a line color with the \hyperlink{group__ez_l_c_d__103__colors_ga6b18ed4d0fb08b58b43a66a507a53dec}{ez\-L\-C\-D\-\_\-set\-\_\-color\-\_\-rgb()} function or is willing to use the most recently set color. 
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__lines_ga35a1badf801e1e575e85f37b9aab365f}{\index{Lines@{Lines}!ez\-L\-C\-D\-\_\-draw\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-line}}
+\index{ez\-L\-C\-D\-\_\-draw\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-line}!Lines@{Lines}}
+\subsubsection[{ez\-L\-C\-D\-\_\-draw\-\_\-line}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-draw\-\_\-line (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{x, }
+\item[{{\bf int16\-\_\-t}}]{y}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__lines_ga35a1badf801e1e575e85f37b9aab365f}
+This function is used to draw generic lines of any slope to the screen. If the user is only drawing horizontal or vertical lines, it is advised to use one of the other two functions in this file respectively to conserve system resources. The function draws a line between the {\bfseries  current position. } and the provided X\-Y coordinate. The {\bfseries current position} is then updated to the provided X\-Y coordinate.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape x} = X coordinate of the line's endpoint; in the set of \mbox{[}-\/32768,32767\mbox{]}.
+\item {\itshape y} = Y coordinate of the line's endpoint; in the set of \mbox{[}-\/32768,32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has appropriately set the {\bfseries current position} using the \hyperlink{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}{ez\-L\-C\-D\-\_\-set\-\_\-xy()} function or another function which alters the {\bfseries current position}.
+\item The user has set a desired pen size with ez\-L\-C\-D\-\_\-set\-\_\-pen\-\_\-size() or is willing to use the most recently set pen size.
+\item The user has chosen a line color with the \hyperlink{group__ez_l_c_d__103__colors_ga6b18ed4d0fb08b58b43a66a507a53dec}{ez\-L\-C\-D\-\_\-set\-\_\-color\-\_\-rgb()} function or is willing to use the most recently set color. 
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__lines_gaf9a751e9cf10f52c13e428b8f5f30761}{\index{Lines@{Lines}!ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line}}
+\index{ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line@{ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line}!Lines@{Lines}}
+\subsubsection[{ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-draw\-\_\-v\-\_\-line (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{y}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__lines_gaf9a751e9cf10f52c13e428b8f5f30761}
+This function is used to draw vertical lines only to the screen. If the user needs to draw a vertical line, this function is preferred to conserve system resources. The function draws a line between the {\bfseries  current position. } and the provided Y coordinate. The {\bfseries current position} is then updated to the provided Y coordinate.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape y} = Y coordinate of the line's endpoint; in the set of \mbox{[}-\/32768,32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has appropriately set the {\bfseries current position} using the \hyperlink{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}{ez\-L\-C\-D\-\_\-set\-\_\-xy()} function or another function which alters the {\bfseries current position}.
+\item The user has set a desired pen size with ez\-L\-C\-D\-\_\-set\-\_\-pen\-\_\-size() or is willing to use the most recently set pen size.
+\item The user has chosen a line color with the \hyperlink{group__ez_l_c_d__103__colors_ga6b18ed4d0fb08b58b43a66a507a53dec}{ez\-L\-C\-D\-\_\-set\-\_\-color\-\_\-rgb()} function or is willing to use the most recently set color. 
+\end{DoxyItemize}
+\end{DoxyParagraph}

@@ -1,0 +1,183 @@
+\hypertarget{group__ez_l_c_d__103__coordinates}{\section{Coordinates}
+\label{group__ez_l_c_d__103__coordinates}\index{Coordinates@{Coordinates}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}{ez\-L\-C\-D\-\_\-set\-\_\-xy} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} x, \hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} y)
+\item 
+void \hyperlink{group__ez_l_c_d__103__coordinates_gaf9f5252984333f1d720f7f2af8717a78}{ez\-L\-C\-D\-\_\-set\-\_\-x} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} x)
+\item 
+void \hyperlink{group__ez_l_c_d__103__coordinates_ga2dbe19082766cc06a2cf2f9e3af832b6}{ez\-L\-C\-D\-\_\-set\-\_\-y} (\hyperlink{group__ez_l_c_d__103__common_ga932e6ccc3d54c58f761c1aead83bd6d7}{int16\-\_\-t} y)
+\item 
+void \hyperlink{group__ez_l_c_d__103__coordinates_ga43e326c735abcb1fb21e13e8027d0192}{ez\-L\-C\-D\-\_\-save\-\_\-position} (\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} index)
+\item 
+void \hyperlink{group__ez_l_c_d__103__coordinates_gab324a4b083ce8031560b017cf340e52d}{ez\-L\-C\-D\-\_\-restore\-\_\-position} (\hyperlink{group__ez_l_c_d__103__common_gaba7bc1797add20fe3efdf37ced1182c5}{uint8\-\_\-t} index)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This header file is used to manage the coordinates of the {\bfseries  current position. }
+
+A most drawing functions in this library utilize the {\bfseries current position }. The {\bfseries current position } can be thought of as a cursor; it indicates the point or starting point where some activity will occur. This value is stored internally on the ez\-L\-C\-D+103 and cannot be read back.
+
+Even though the display is 320 pixels wide by 240 pixels tall, the {\bfseries current position } may assume values off of the screen in both the negative and positive direction. This will result in objects being drawn partially or completely off screen.
+
+The coordinate system is rather unconventional in comparison to the standard Cartesian coordinate system. In this coordinate system, Y values increase as one moves south while X values increase as one moves east as they do in the regular Cartesian system. Imagine that the screen takes up a portion of the fourth quadrant of the Cartesian plane; however, we take the absolute value of the Y-\/coordinate. This concept is illustrated in the image below.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{group__ez_l_c_d__103__coordinates_gab324a4b083ce8031560b017cf340e52d}{\index{Coordinates@{Coordinates}!ez\-L\-C\-D\-\_\-restore\-\_\-position@{ez\-L\-C\-D\-\_\-restore\-\_\-position}}
+\index{ez\-L\-C\-D\-\_\-restore\-\_\-position@{ez\-L\-C\-D\-\_\-restore\-\_\-position}!Coordinates@{Coordinates}}
+\subsubsection[{ez\-L\-C\-D\-\_\-restore\-\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-restore\-\_\-position (
+\begin{DoxyParamCaption}
+\item[{{\bf uint8\-\_\-t}}]{index}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__coordinates_gab324a4b083ce8031560b017cf340e52d}
+This function is used restore the {\bfseries current position } from memory.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape index} = index in memory where the {\bfseries current position } should be restored from. This value is in the set of \mbox{[}0, 255\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has previously saved the requested current position using the \hyperlink{group__ez_l_c_d__103__coordinates_ga43e326c735abcb1fb21e13e8027d0192}{ez\-L\-C\-D\-\_\-save\-\_\-position()} function.
+\item The user has initialized the M\-C\-U's S\-P\-I interface with the \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I()} macro.
+\item The user has set the M\-C\-U's S\-P\-I pins to inputs and outputs appropriately. \par
+\par
+
+\begin{DoxyItemize}
+\item S\-S\-\_\-\-B\-A\-R = O\-U\-T\-P\-U\-T
+\item S\-C\-K = O\-U\-T\-P\-U\-T
+\item M\-O\-S\-I = O\-U\-T\-P\-U\-T
+\item M\-I\-S\-O = I\-N\-P\-U\-T 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__coordinates_ga43e326c735abcb1fb21e13e8027d0192}{\index{Coordinates@{Coordinates}!ez\-L\-C\-D\-\_\-save\-\_\-position@{ez\-L\-C\-D\-\_\-save\-\_\-position}}
+\index{ez\-L\-C\-D\-\_\-save\-\_\-position@{ez\-L\-C\-D\-\_\-save\-\_\-position}!Coordinates@{Coordinates}}
+\subsubsection[{ez\-L\-C\-D\-\_\-save\-\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-save\-\_\-position (
+\begin{DoxyParamCaption}
+\item[{{\bf uint8\-\_\-t}}]{index}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__coordinates_ga43e326c735abcb1fb21e13e8027d0192}
+This function is used save the {\bfseries current position } for later use.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape index} = index in memory where the {\bfseries current position } should be saved. This value is in the set of \mbox{[}0, 255\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has initialized the M\-C\-U's S\-P\-I interface with the \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I()} macro.
+\item The user has set the M\-C\-U's S\-P\-I pins to inputs and outputs appropriately. \par
+\par
+
+\begin{DoxyItemize}
+\item S\-S\-\_\-\-B\-A\-R = O\-U\-T\-P\-U\-T
+\item S\-C\-K = O\-U\-T\-P\-U\-T
+\item M\-O\-S\-I = O\-U\-T\-P\-U\-T
+\item M\-I\-S\-O = I\-N\-P\-U\-T 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__coordinates_gaf9f5252984333f1d720f7f2af8717a78}{\index{Coordinates@{Coordinates}!ez\-L\-C\-D\-\_\-set\-\_\-x@{ez\-L\-C\-D\-\_\-set\-\_\-x}}
+\index{ez\-L\-C\-D\-\_\-set\-\_\-x@{ez\-L\-C\-D\-\_\-set\-\_\-x}!Coordinates@{Coordinates}}
+\subsubsection[{ez\-L\-C\-D\-\_\-set\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-set\-\_\-x (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{x}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__coordinates_gaf9f5252984333f1d720f7f2af8717a78}
+This function is used to set the X coordinate of the {\bfseries current position }.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape x} = X coordinate value in the set of \mbox{[}-\/32768, 32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has initialized the M\-C\-U's S\-P\-I interface with the \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I()} macro.
+\item The user has set the M\-C\-U's S\-P\-I pins to inputs and outputs appropriately. \par
+\par
+
+\begin{DoxyItemize}
+\item S\-S\-\_\-\-B\-A\-R = O\-U\-T\-P\-U\-T
+\item S\-C\-K = O\-U\-T\-P\-U\-T
+\item M\-O\-S\-I = O\-U\-T\-P\-U\-T
+\item M\-I\-S\-O = I\-N\-P\-U\-T 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}{\index{Coordinates@{Coordinates}!ez\-L\-C\-D\-\_\-set\-\_\-xy@{ez\-L\-C\-D\-\_\-set\-\_\-xy}}
+\index{ez\-L\-C\-D\-\_\-set\-\_\-xy@{ez\-L\-C\-D\-\_\-set\-\_\-xy}!Coordinates@{Coordinates}}
+\subsubsection[{ez\-L\-C\-D\-\_\-set\-\_\-xy}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-set\-\_\-xy (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{x, }
+\item[{{\bf int16\-\_\-t}}]{y}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__coordinates_ga7622b9ff8ad99e99896043bb859812ba}
+This function is used to set the X\-Y coordinates of the {\bfseries current position}.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape x} = X coordinate value in the set of \mbox{[}-\/32768, 32767\mbox{]}.
+\item {\itshape y} = Y coordinate value in the set of \mbox{[}-\/32768, 32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has initialized the M\-C\-U's S\-P\-I interface with the \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I()} macro.
+\item The user has set the M\-C\-U's S\-P\-I pins to inputs and outputs appropriately. \par
+\par
+
+\begin{DoxyItemize}
+\item S\-S\-\_\-\-B\-A\-R = O\-U\-T\-P\-U\-T
+\item S\-C\-K = O\-U\-T\-P\-U\-T
+\item M\-O\-S\-I = O\-U\-T\-P\-U\-T
+\item M\-I\-S\-O = I\-N\-P\-U\-T 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\hypertarget{group__ez_l_c_d__103__coordinates_ga2dbe19082766cc06a2cf2f9e3af832b6}{\index{Coordinates@{Coordinates}!ez\-L\-C\-D\-\_\-set\-\_\-y@{ez\-L\-C\-D\-\_\-set\-\_\-y}}
+\index{ez\-L\-C\-D\-\_\-set\-\_\-y@{ez\-L\-C\-D\-\_\-set\-\_\-y}!Coordinates@{Coordinates}}
+\subsubsection[{ez\-L\-C\-D\-\_\-set\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}void ez\-L\-C\-D\-\_\-set\-\_\-y (
+\begin{DoxyParamCaption}
+\item[{{\bf int16\-\_\-t}}]{y}
+\end{DoxyParamCaption}
+)}}\label{group__ez_l_c_d__103__coordinates_ga2dbe19082766cc06a2cf2f9e3af832b6}
+This function is used to set the Y coordinate of the {\bfseries current position }.
+
+\begin{DoxyParagraph}{Parameters}
+
+\begin{DoxyItemize}
+\item {\itshape y} = Y coordinate value in the set of \mbox{[}-\/32768, 32767\mbox{]}.
+\end{DoxyItemize}
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assumptions}
+
+\begin{DoxyItemize}
+\item The user has initialized the M\-C\-U's S\-P\-I interface with the \hyperlink{group__ez_l_c_d__103__common_gaf5c3b2dedc950d34e0381946fbb32428}{E\-Z\-L\-C\-D\-\_\-\-I\-N\-I\-T\-\_\-\-S\-P\-I()} macro.
+\item The user has set the M\-C\-U's S\-P\-I pins to inputs and outputs appropriately. \par
+\par
+
+\begin{DoxyItemize}
+\item S\-S\-\_\-\-B\-A\-R = O\-U\-T\-P\-U\-T
+\item S\-C\-K = O\-U\-T\-P\-U\-T
+\item M\-O\-S\-I = O\-U\-T\-P\-U\-T
+\item M\-I\-S\-O = I\-N\-P\-U\-T 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyParagraph}

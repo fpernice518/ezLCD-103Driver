@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2031193867</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\ezLCD_103_buttons.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_colors.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_buttons.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_colors.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_common.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_common.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_coordinates.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_coordinates.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_curves.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_curves.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_driver.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_fill.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_fill.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_frames.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_frames.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_images.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_images.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_lines.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_lines.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_pen.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_pen.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_pixels.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_pixels.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_polygons.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_polygons.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_system.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_system.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_text.c</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_text.h</file>
+      <file>$PROJ_DIR$\src\ezLCD_103_user_config.h</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_images.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_lines.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_curves.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\example_project.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_common.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_colors.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_coordinates.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_pen.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_frames.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_fill.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_buttons.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_pixels.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_polygons.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_system.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_text.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_buttons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_colors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_coordinates.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_curves.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_fill.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_frames.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_images.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_lines.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_pen.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_pixels.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_polygons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ezLCD_103_text.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\example_project.d90</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\avr_macros.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\iom128.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_colors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70 0</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_coordinates.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_curves.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_fill.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_frames.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_images.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_lines.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_pen.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_pixels.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_polygons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ezLCD_103_text.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 69 68 70 7 24 3</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 29 69 68 70 7 24 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 68 70 63 64 66 65 67 10 5 29 3 24 7 20 22 18 9 12 28 0 14 16 26</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 69 68 70 63 64 66 65 67 10 5 29 3 24 7 20 22 18 9 12 28 0 14 16 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\example_project.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 73 72 41 36 35 37 33 40 39 31 32 38 42 43 44 45 46 71</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
