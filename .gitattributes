@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+Doxygen/* linguist-documentation
+Schematics/* linguist-documentation
+Datasheets/* linguist-documentation
+*.html linguist-documentation
+
+"SD Cards/*" linguist-vendored
+settings/* linguist-vendored
